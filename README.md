@@ -16,7 +16,7 @@ You can use The Swift Package Manager to install SwiftEmailValidator by adding i
         name: "MyApp",
         targets: [],
         dependencies: [
-            .Package(url: "https://github.com/ekscrypto/SwiftEmailValidator.git", .upToNextMajor(from: "1.0.0"))
+            .Package(url: "https://github.com/ihamadfuad/AppStoreReviewsAPI.git", .from: "1.0.0")
         ]
     )
 

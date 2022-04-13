@@ -1,4 +1,4 @@
-![swift workflow](https://github.com/ihamadfuad/AppStoreReviewsAPI/actions/workflows/swift.yml/badge.svg) [![codecov](https://codecov.io/gh/ihamadfuad/AppStoreReviewsAPI/branch/main/graph/badge.svg?token=W9KO1BG8S0)](https://codecov.io/gh/ihamadfuad/AppStoreReviewsAPI) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Issues](https://img.shields.io/github/issues/ihamadfuad/AppStoreReviewsAPI) ![Releases](https://img.shields.io/github/v/release/ihamadfuad/AppStoreReviewsAPI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Issues](https://img.shields.io/github/issues/ihamadfuad/AppStoreReviewsAPI) ![Releases](https://img.shields.io/github/v/release/ihamadfuad/AppStoreReviewsAPI)
 
 # AppStoreReviewsAPI
 

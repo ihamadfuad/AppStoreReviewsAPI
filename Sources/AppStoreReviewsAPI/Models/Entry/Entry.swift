@@ -7,17 +7,17 @@
 
 import Foundation
 
-struct Entry: Decodable {
+public struct Entry: Decodable {
 
-    let author: EntryAuthor
-    let updated: Updated
-    let imRating, imVersion, id: ID
-    let title: Title
-    let content: Content
-    let link: EntryLink
-    let imVoteSum: Vote
-    let imContentType: IMContentType
-    let imVoteCount: Vote
+    public let author: EntryAuthor
+    public let updated: Updated
+    public let imRating, imVersion, id: ID
+    public let title: Title
+    public let content: Content
+    public let link: EntryLink
+    public let imVoteSum: Vote
+    public let imContentType: IMContentType
+    public let imVoteCount: Vote
 
     enum CodingKeys: String, CodingKey {
 
@@ -32,64 +32,64 @@ struct Entry: Decodable {
 }
 
 // MARK: - Author
-struct EntryAuthor: Decodable {
+public struct EntryAuthor: Decodable {
 
-    let uri, name: ID
-    let label: String
+    public let uri, name: ID
+    public let label: String
 }
 
 // MARK: - Content
-struct Content: Decodable {
+public struct Content: Decodable {
 
-    let label: String
-    let attributes: ContentAttributes
+    public let label: String
+    public let attributes: ContentAttributes
 }
 
 // MARK: - ContentAttributes
-struct ContentAttributes: Decodable {
+public struct ContentAttributes: Decodable {
 
-    let type: TypeEnum
+    public let type: TypeEnum
 }
 
-enum TypeEnum: String, Decodable {
+public enum TypeEnum: String, Decodable {
 
     case text = "text"
 }
 
 // MARK: - Vote
-struct Vote: Decodable {
+public struct Vote: Decodable {
 
-    let label: String
+    public let label: String
 }
 
 // MARK: - IMContentType
-struct IMContentType: Decodable {
+public struct IMContentType: Decodable {
 
-    let attributes: IMContentTypeAttributes
+    public let attributes: IMContentTypeAttributes
 }
 
 // MARK: - IMContentTypeAttributes
-struct IMContentTypeAttributes: Decodable {
+public struct IMContentTypeAttributes: Decodable {
 
-    let term, label: Label
+    public let term, label: Label
 }
 
-enum Label: String, Decodable {
+public enum Label: String, Decodable {
 
     case application = "Application"
 }
 
 // MARK: - EntryLink
-struct EntryLink: Decodable {
+public struct EntryLink: Decodable {
 
-    let attributes: LinkAttributes
+    public let attributes: LinkAttributes
 }
 
 // MARK: - LinkAttributes
-struct LinkAttributes: Decodable {
+public struct LinkAttributes: Decodable {
 
-    let rel: String
-    let href: String
+    public let rel: String
+    public let href: String
 }
 
 

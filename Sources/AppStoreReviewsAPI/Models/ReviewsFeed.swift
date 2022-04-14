@@ -7,19 +7,19 @@
 
 import Foundation
 
-struct ReviewsFeed: Decodable {
+public struct ReviewsFeed: Decodable {
 
-    let feed: Feed
+    public let feed: Feed
 }
 
-struct Feed: Decodable {
+public struct Feed: Decodable {
 
-    let id: ID
-    let author: Author
-    let entry: [Entry]
-    let updated: Updated
-    let rights: Rights
-    let title: Title
-    let icon: Icon
-    let link: [Link]
+    public let id: ID
+    public let author: Author
+    public let entry: [Entry]
+    public let updated: Updated
+    public let rights: Rights
+    public let title: Title
+    public let icon: Icon
+    public let link: [Link]
 }

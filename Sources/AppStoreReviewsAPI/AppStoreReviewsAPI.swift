@@ -10,22 +10,14 @@ public struct AppStoreReviewsAPI {
         case mostRecent = "mostrecent"
     }
 
-    var appID = String()
-    var page: String = "1"
-    var sortBy: Sortby = .mostHelpful
-
     private var url: String?
 
     public init(appID: String, page: String = "1", sortBy: Sortby = .mostHelpful) {
 
-        self.appID = appID
-        self.page = page
-        self.sortBy = sortBy
-
         url = "https://itunes.apple.com/rss/customerreviews/page=" + page + "/id=" + appID + "/sortby=" + sortBy.rawValue + "/json?l=en&cc=gb"
     }
 
-    func reviews() async throws -> ReviewsFeed {
+    public func reviews() async throws -> ReviewsFeed {
 
         guard let urlString = url,
               let url = URL(string: urlString)

@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct Link: Decodable {
+public struct Link: Decodable {
 
-    let attributes: Attributes
+    public let attributes: Attributes
 }
 
-struct Attributes: Decodable {
+public struct Attributes: Decodable {
 
-    let rel: String
-    let type: String?
-    let href: String
+    public let rel: String
+    public let type: String?
+    public let href: String
 }

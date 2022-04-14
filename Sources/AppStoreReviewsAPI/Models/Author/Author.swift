@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Author: Decodable {
+public struct Author: Decodable {
 
-    let name, uri: URI
+    public let name, uri: URI
 }
 
-struct URI: Decodable {
+public struct URI: Decodable {
 
-    let label: String
+    public let label: String
 }

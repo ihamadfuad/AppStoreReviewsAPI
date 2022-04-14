@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Rights: Decodable {
+public struct Rights: Decodable {
     
-    let label: String
+    public let label: String
 }

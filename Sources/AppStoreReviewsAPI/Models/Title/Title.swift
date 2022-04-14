@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Title: Decodable {
+public struct Title: Decodable {
     
-    let label: String
+    public let label: String
 }

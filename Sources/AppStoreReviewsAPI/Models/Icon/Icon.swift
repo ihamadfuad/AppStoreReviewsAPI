@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Icon: Decodable {
+public struct Icon: Decodable {
     
-    let label: String
+    public let label: String
 }

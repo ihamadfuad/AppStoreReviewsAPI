@@ -26,6 +26,8 @@ You can use The Swift Package Manager to install SwiftEmailValidator by adding i
 ### Usage
 
 ```swift
+import AppStoreReviewsAPI
+
 let appStore = AppStoreReviewsAPI(appID: "310633997") // This app id belongs to WhatsApp
 let reviews = try await appStore.reviews()
 

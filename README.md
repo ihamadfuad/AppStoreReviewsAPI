@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Issues](https://img.shields.io/github/issues/ihamadfuad/AppStoreReviewsAPI) ![Releases](https://img.shields.io/github/v/release/ihamadfuad/AppStoreReviewsAPI)
 
+[![Sponsor](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/nuralme?country.x=BH&locale.x=en_US)
+
 # AppStoreReviewsAPI
 
 A Swift 5.6 implementation of iTunes customer reviews. Retrieve customer reviews for your app and display most helpful 

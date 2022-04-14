@@ -1,4 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![Issues](https://img.shields.io/github/issues/ihamadfuad/AppStoreReviewsAPI) ![Releases](https://img.shields.io/github/v/release/ihamadfuad/AppStoreReviewsAPI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+[![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
+[![Swift](https://img.shields.io/badge/Swift-5.6-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-13.3-blue.svg)](https://developer.apple.com/xcode)
+![Issues](https://img.shields.io/github/issues/ihamadfuad/AppStoreReviewsAPI) ![Releases](https://img.shields.io/github/v/release/ihamadfuad/AppStoreReviewsAPI)
 
 # Sponsor
 [![Sponsor](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/nuralme?country.x=BH&locale.x=en_US)

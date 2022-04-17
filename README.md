@@ -15,7 +15,7 @@ reviews.
 ## Installation
 ### Swift Package Manager (SPM)
 
-You can use The Swift Package Manager to install SwiftEmailValidator by adding it to your Package.swift file:
+You can use The Swift Package Manager to install AppStoreReviewsAPI by adding it to your Package.swift file:
 
     import PackageDescription
 
